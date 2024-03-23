@@ -49,23 +49,3 @@ function clr()
 }
 
 
-function gettodofrombackend(){
-    var http = new XMLHttpRequest()
-    http.onreadystatechange = function(){ // used in handling success and failed state of a website
-        if(this.readyState=== 4){
-            if(this.status ===200){
-                var response =JSON.parse(this.responseText)
-                for(var i=0; i<response.length; i++){
-                    console.log(response[i].title)
-                }
-                 } else{
-                console.log('call failed')
-            }
-        }
-        
-    }
-    http.open('Get', 'http://127.0.0.1:5500/calculator.html', true)
-    http.send()
-  }
-      
-  gettodofrombackend()
