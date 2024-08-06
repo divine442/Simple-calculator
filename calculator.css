@@ -5,56 +5,62 @@ body{
     
     
 
-    background: linear-gradient( 90deg, #0072bc, #5c8ab9)
+    background: silver
     
 }
 
-#container{
+#container  {
     position: absolute;
-    left: 35%;
-    display: flex;
-    
+    left: 35%; 
+   
     flex-wrap: wrap;
-    margin: 0;
-    border: 0;
+   
     width: 25%;
     padding:0;
-    background: #666666;
-    height: 30rem;
+    background: rgb(114, 108, 108);
+    
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 18px;
 
 }
+
+
+
 .btn  div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 8px;
+    
+    border-radius: 18px;
 
 }
+
 
 
 
 
 input[type="text"]{
-    width: 100%;
+    width: 95%;
     height: 120px;
-    margin: 0;
-    background-color: white;
-    color: black;
+    border-radius: 18px;
+    background-color: black;
+    color: silver;
     font-weight: bold;
     outline: none;
-    border: 0;
-    
+    margin: 10px 10px;
+    border: none;
     box-sizing: border-box;
 }
 
 input[type= "button"]{
-   font-size: medium;
-   width: auto;
-   box-shadow: 0px 1px black;
-   outline: black;
-    background-color: transparent;
+    
+   font-size: 30px;
+   width: 90px;
+   
+   border-radius: 50%;
+   box-shadow: 0px 3px black;
+    background-color:  rgb(114, 108, 108);
     color: white;
     outline: none;
     border: none;
@@ -63,4 +69,7 @@ input[type= "button"]{
  
 }
 
+input[type= "button"]:hover{
+    background-color: burlywood;
+}
  
