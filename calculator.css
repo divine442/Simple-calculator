@@ -58,8 +58,8 @@ input[type="text"]{
 
 input[type= "button"]{
     
-   font-size: 30px;
-   width: 90px;
+   font-size: 20px;
+   width: 100%;
    
    border-radius: 50%;
    box-shadow: 0px 3px black;
@@ -113,20 +113,4 @@ input[type="text"]{
     border: none;
     box-sizing: border-box;
 }
-
-input[type= "button"]{
-    
-    font-size: 20px;
-    width: 90px;
-    
-    border-radius: 50%;
-    box-shadow: 0px 3px black;
-     background-color:  rgb(114, 108, 108);
-     color: white;
-     outline: none;
-     border: none;
-     margin: 9px;
-     padding-top: 26px;
-}
-
 }
